@@ -2,7 +2,7 @@ import React from 'react';
 import ReachControls from '../components/ReachControls';
 import ReachChart from '../components/ReachChart';
 
-const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'https://reachpredictor-production.up.railway.app';
 
 export default function ReachPredictor() {
   const [curveData, setCurveData] = React.useState(null);
