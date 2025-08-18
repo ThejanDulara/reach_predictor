@@ -26,9 +26,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffff; /* or any background */
+  background-color: #f3e8ff; /* match app background */
 }
-
 
 h1 {
   font-size: 3.2em;
@@ -65,8 +64,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.Toastify__toast-container--top-right {
-  right: 0 !important; /* remove side gap */
 }
