@@ -11,10 +11,10 @@ export async function checkAuth() {
   }
 
   // 🧠 API base (Flask backend)
-  const apiBase = "https://mtmbackend-production.up.railway.app/api";
+  const apiBase = "https://midasrndfrontendbackend-production.up.railway.app/api";
 
   // 🧠 Main portal base for login
-  const portalBase = "https://www.mtmgroup.agency"; // ✅ fixed with 'www'
+  const portalBase = "https://www.midasmedialk.agency"; // ✅ fixed with 'www'
 
   try {
     const res = await fetch(`${apiBase}/auth/me`, {
